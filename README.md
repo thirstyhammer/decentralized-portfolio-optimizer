@@ -25,5 +25,5 @@ A high‑frequency crypto portfolio toolkit that fuses GRU one‑hour price fore
 
 ## Notes
 
-- **Model Training Shortcut**: The **Model Training & Evaluation** cell includes its own data‑loading and preprocessing steps. If you’ve already fetched and processed data, you may skip directly to this cell to begin GRU training.
+- **Model Training Shortcut**: The **Model Training & Evaluation** cell includes its own data‑loading and preprocessing steps. If you’ve already doesnt intend to index an group of assets, directly run the **Model Training & Evaluation**. It will ask you to either use already available file or extract new data from the API.
 - **Expected Errors**: You may encounter warnings or memory errors on large datasets. Ensure your API credentials are valid, you have sufficient RAM, and consider breaking data into smaller segments.
